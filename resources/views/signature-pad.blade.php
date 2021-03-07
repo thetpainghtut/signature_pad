@@ -121,7 +121,7 @@ height: auto;
 <script type="text/javascript">
 
 var signaturePad = $('#signaturePad').signature({syncField: '#signature64', syncFormat: 'PNG'});
-signaturePad.on();
+signaturePad.off();
 
 $('#clear').click(function(e) {
 e.preventDefault();
