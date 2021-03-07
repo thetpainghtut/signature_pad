@@ -87,7 +87,7 @@
 
 
          </div> --}}
-         <div class="table mt-4 ml-28">
+         {{-- <div class="table mt-4 ml-28">
                 <x-jet-label for="tname" value="{{ __('Student Name') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name"  required autofocus />
             </div>
@@ -100,7 +100,7 @@
             <div class="table mt-4 ml-28">
                 <x-jet-label for="branchname" value="{{ __('Branch Name') }}" />
                 <x-jet-input id="branchname" class="block mt-1 w-full" type="text" name="branchname"  required autofocus />
-            </div>
+            </div> --}}
         
 <div class="col-md-12">
 <label class="" for="">Signature:</label>
