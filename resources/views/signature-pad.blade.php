@@ -19,7 +19,7 @@
 .kbw-signature { width: 100%; height: 180px;}
 #signaturePad canvas{
 width: 100% !important;
-height: auto;
+/*height: auto;*/
 }
 </style>
 </head>
@@ -103,7 +103,7 @@ height: auto;
 <div class="col-md-12">
 <label class="" for="">Signature:</label>
 <br/>
-<div id="signaturePad" ></div>
+<div id="signaturePad"></div>
 <br/>
 <button id="clear" class="btn btn-danger btn-sm">Clear Signature</button>
 <textarea id="signature64" name="signed" style="display: none"></textarea>
@@ -121,13 +121,12 @@ height: auto;
 <script type="text/javascript">
 
 var signaturePad = $('#signaturePad').signature({syncField: '#signature64', syncFormat: 'PNG'});
-signaturePad.off();
+// signaturePad.on();
 
 $('#clear').click(function(e) {
-e.preventDefault();
-signaturePad.signature('clear');
-$("#signature64").val('');
-
+    e.preventDefault();
+    signaturePad.signature('clear');
+    $("#signature64").val('');
 });
 </script>
 </body>
