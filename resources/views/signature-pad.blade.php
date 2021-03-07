@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 
-
+<meta charset="utf-8">
 
 <head>
 <title>Laravel Signature Pad Tutorial Example - ItSolutionStuff.com </title>
