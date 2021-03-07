@@ -42,7 +42,7 @@ height: auto;
 @csrf
 
 
-<!--<div class="table mt-4 ml-28">
+{{-- <div class="table mt-4 ml-28">
                 <x-jet-label for="stname" value="{{ __('Student Name') }}" />
                 <x-jet-input id="stname" class="block mt-1 w-full" type="text" name="stname"  required autofocus />
             </div>
@@ -84,7 +84,7 @@ height: auto;
                                 <script src="{{asset('js/test.js')}}"></script>
 
 
-         </div>-->
+         </div> --}}
          <div class="table mt-4 ml-28">
                 <x-jet-label for="tname" value="{{ __('Student Name') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name"  required autofocus />
